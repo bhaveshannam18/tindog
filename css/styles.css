@@ -1,0 +1,200 @@
+body{
+  font-family: Montserrat;
+}
+h1{
+font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: "Montserrat";
+   margin-top: 1rem;
+}
+.container-fluid {
+padding: 5% 15% 6%;
+
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* title */
+
+#title{
+  background-color: #ff4c68;
+    color: white;
+}
+
+
+/* navbar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: MontserratLight;
+}
+
+
+
+/* buttons */
+
+
+.download-btn{
+  margin:  5% 3% 5% 0;
+}
+
+
+.rotate{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+
+
+
+.fas{
+  size:100%;
+}
+
+#features{
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+
+}
+
+.feature-box{
+  text-align: center;
+  padding: 4.5%;
+}
+
+
+.icon{
+  color: #ef8172;
+
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+/* Testimonial */
+
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+
+}
+
+
+/* pricing */
+
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+  #title{
+    text-align: center;
+  }
+
+
+
+
+/*********cta********** */
+
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 8% 0;
+}
+
+.cta-h3{
+  color: #fff;
+  font-size: 40px;
+}
+
+
+
+ .icon-padding{
+  margin-right:8px;
+}
+
+/* footer */
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+.footer-p{
+  margin-top: 15px;
+}
+
+
+@media (max-width:990px) {
+  .rotate{
+    position: static;
+    transform: rotate(0);
+    margin-top: 20px;
+  }
+}
